@@ -4,7 +4,7 @@
 
 class Solution {
 public:
-	std::vector<int> intersect(std::vector<int>& nums1, std::vector<int>& nums2){
+	std::vector<int>& intersect(std::vector<int>& nums1, std::vector<int>& nums2){
 		std::vector<int> intersection;
 		std::sort(nums1.begin(), nums1.end());
 		std::sort(nums2.begin(), nums2.end());
